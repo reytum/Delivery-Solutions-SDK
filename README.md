@@ -10,6 +10,10 @@ Android SDK for Delivery solutions
             url("${project(':background-geolocation').projectDir}/libs")
         }
     ```
+4) Import the module in your app level build.gradle file as below:
+    ```
+      implementation project(':delivery-solutions')
+    ```
     
 ## Start tracking location:
  To start location tracking, call the below function:
