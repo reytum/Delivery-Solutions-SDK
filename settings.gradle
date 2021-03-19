@@ -1,0 +1,4 @@
+include ':background-geolocation'
+include ':delivery-solutions'
+include ':app'
+rootProject.name = "Delivery-Solutions-SDK"
