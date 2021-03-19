@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+dimen fab_margin
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id action_settings
+id btnChangePace
+id btnCurrentPosition
+id btnEnable
+id content
+id include
+id textView2
+layout activity_geo
+layout content_main
+menu menu_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string action_settings
+string app_name
+style AppTheme
+style AppTheme.AppBarOverlay
+style AppTheme.NoActionBar
+style AppTheme.PopupOverlay

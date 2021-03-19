@@ -1,0 +1,2 @@
+com/transistorsoft/backgroundgeolocation/BuildConfig.java
+ com.transistorsoft.backgroundgeolocation.BuildConfig

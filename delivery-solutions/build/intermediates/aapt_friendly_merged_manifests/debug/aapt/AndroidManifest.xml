@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.delivery_solutions"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <application android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.delivery_solutions.GeoActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="com.transistorsoft.locationmanager.license"
+            android:value="42626c4f3d3658762f673b35c92f43467d2944f789c4a32559f37c26eef89608" />
+    </application>
+
+</manifest>

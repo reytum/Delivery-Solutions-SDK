@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.delivery_solutions_sdk"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:3:5-67
+11-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:3:22-65
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:4:5-78
+12-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:5:5-84
+13-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:5:22-82
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:6:5-80
+14-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+15-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:7:5-78
+15-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:8:5-78
+16-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+17-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:9:5-88
+17-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:9:22-86
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:10:5-66
+18-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:10:22-64
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:11:5-76
+19-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:11:22-74
+20    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+20-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:12:5-93
+20-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:12:22-91
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:13:5-80
+21-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:13:22-78
+22    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- device-specific permissions for DeviceSettings methods -->
+22-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:14:5-67
+22-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:14:22-65
+23    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
+23-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:16:5-74
+23-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:16:22-72
+24    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
+24-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:17:5-96
+24-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:17:22-94
+25
+26    <uses-feature
+26-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:18:5-90
+27        android:name="android.hardware.location.gps"
+27-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:18:19-63
+28        android:required="false" />
+28-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:18:64-88
+29
+30    <application
+30-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:5:5-19:19
+31        android:allowBackup="true"
+31-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:6:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.2] /Users/reytum/.gradle/caches/transforms-2/files-2.1/79ee559483d346866425453a88a27286/core-1.3.2/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:7:9-43
+35        android:label="@string/app_name"
+35-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:8:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:9:9-54
+37        android:supportsRtl="true"
+37-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:10:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.DeliverySolutionsSDK"
+39-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:11:9-58
+40        android:usesCleartextTraffic="true" >
+40-->[:delivery-solutions] /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:18-53
+41        <activity android:name="com.example.delivery_solutions_sdk.MainActivity" >
+41-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:12:9-18:20
+41-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:12:19-47
+42            <intent-filter>
+42-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:13:13-17:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:14:17-69
+43-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:14:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:16:17-77
+45-->/Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/app/src/main/AndroidManifest.xml:16:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->[:delivery-solutions] /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:72
+49            android:name="com.example.delivery_solutions.GeoActivity"
+49-->[:delivery-solutions] /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-70
+50            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+50-->[:delivery-solutions] /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-69
+51
+52        <meta-data
+52-->[:delivery-solutions] /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:96
+53            android:name="com.transistorsoft.locationmanager.license"
+53-->[:delivery-solutions] /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-70
+54            android:value="42626c4f3d3658762f673b35c92f43467d2944f789c4a32559f37c26eef89608" />
+54-->[:delivery-solutions] /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-93
+55
+56        <activity
+56-->[com.google.android.gms:play-services-base:17.0.0] /Users/reytum/.gradle/caches/transforms-2/files-2.1/6d064301158aa86007fb000de44842bf/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+57-->[com.google.android.gms:play-services-base:17.0.0] /Users/reytum/.gradle/caches/transforms-2/files-2.1/6d064301158aa86007fb000de44842bf/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-base:17.0.0] /Users/reytum/.gradle/caches/transforms-2/files-2.1/6d064301158aa86007fb000de44842bf/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-base:17.0.0] /Users/reytum/.gradle/caches/transforms-2/files-2.1/6d064301158aa86007fb000de44842bf/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+60
+61        <meta-data
+61-->[com.google.android.gms:play-services-basement:17.0.0] /Users/reytum/.gradle/caches/transforms-2/files-2.1/b9f5eb9356e0cc1c7a3916f660e07226/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+62            android:name="com.google.android.gms.version"
+62-->[com.google.android.gms:play-services-basement:17.0.0] /Users/reytum/.gradle/caches/transforms-2/files-2.1/b9f5eb9356e0cc1c7a3916f660e07226/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+63            android:value="@integer/google_play_services_version" />
+63-->[com.google.android.gms:play-services-basement:17.0.0] /Users/reytum/.gradle/caches/transforms-2/files-2.1/b9f5eb9356e0cc1c7a3916f660e07226/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+64
+65        <activity
+65-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:20:9-219
+66            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
+66-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:20:19-103
+67            android:excludeFromRecents="true"
+67-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:20:104-137
+68            android:launchMode="singleInstance"
+68-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:20:138-173
+69            android:theme="@style/AppTheme.Transparent" />
+69-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:20:174-217
+70
+71        <service android:name="com.transistorsoft.locationmanager.service.TrackingService" />
+71-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:21:9-93
+71-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:21:18-91
+72        <service android:name="com.transistorsoft.locationmanager.service.LocationRequestService" />
+72-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:22:9-100
+72-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:22:18-98
+73        <service android:name="com.transistorsoft.locationmanager.service.HeartbeatService" />
+73-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:23:9-94
+73-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:23:18-92
+74        <service android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService" />
+74-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:24:9-104
+74-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:24:18-102
+75        <service android:name="com.transistorsoft.locationmanager.service.GeofencingService" />
+75-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:25:9-95
+75-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:25:18-93
+76        <service android:name="com.transistorsoft.locationmanager.service.BackgroundTaskService" />
+76-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:26:9-99
+76-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:26:18-97
+77
+78        <receiver android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver" />
+78-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:27:9-102
+78-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:27:19-100
+79
+80        <service android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService" />
+80-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:28:9-95
+80-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:28:18-93
+81        <service
+81-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:29:9-179
+82            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
+82-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:29:18-96
+83            android:exported="true"
+83-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:29:97-120
+84            android:permission="android.permission.BIND_JOB_SERVICE" />
+84-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:29:121-177
+85
+86        <receiver android:name="com.transistorsoft.locationmanager.BootReceiver" >
+86-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:30:9-35:20
+86-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:30:19-81
+87            <intent-filter>
+87-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:31:13-34:29
+88                <action android:name="android.intent.action.BOOT_COMPLETED" />
+88-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:32:17-78
+88-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:32:25-76
+89                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+89-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:33:17-83
+89-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:33:25-81
+90            </intent-filter>
+91        </receiver>
+92
+93        <provider
+93-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:36:9-38:20
+94            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
+94-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:36:19-89
+95            android:authorities="com.example.delivery_solutions_sdk.tslocationmanager.fileprovider"
+95-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:36:90-159
+96            android:exported="false"
+96-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:36:160-184
+97            android:grantUriPermissions="true" >
+97-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:36:185-219
+98            <meta-data
+98-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:37:13-137
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:37:24-74
+100                android:resource="@xml/tslocationmanager_file_provider_path" />
+100-->[com.transistorsoft:tslocationmanager:3.1.7] /Users/reytum/.gradle/caches/transforms-2/files-2.1/2e9031435f6f9e0e2d7be9a9cd661a0c/jetified-tslocationmanager-3.1.7/AndroidManifest.xml:37:75-135
+101        </provider>
+102
+103        <activity
+103-->[com.intentfilter:android-permissions:0.1.8] /Users/reytum/.gradle/caches/transforms-2/files-2.1/8390fee32e28032cd7a7f284538ed58e/jetified-android-permissions-0.1.8/AndroidManifest.xml:12:9-15:59
+104            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+104-->[com.intentfilter:android-permissions:0.1.8] /Users/reytum/.gradle/caches/transforms-2/files-2.1/8390fee32e28032cd7a7f284538ed58e/jetified-android-permissions-0.1.8/AndroidManifest.xml:13:13-83
+105            android:excludeFromRecents="true"
+105-->[com.intentfilter:android-permissions:0.1.8] /Users/reytum/.gradle/caches/transforms-2/files-2.1/8390fee32e28032cd7a7f284538ed58e/jetified-android-permissions-0.1.8/AndroidManifest.xml:14:13-46
+106            android:theme="@style/AppTheme.Transparent" />
+106-->[com.intentfilter:android-permissions:0.1.8] /Users/reytum/.gradle/caches/transforms-2/files-2.1/8390fee32e28032cd7a7f284538ed58e/jetified-android-permissions-0.1.8/AndroidManifest.xml:15:13-56
+107    </application>
+108
+109</manifest>

@@ -1,0 +1,2 @@
+com/example/delivery_solutions_sdk/BuildConfig.java
+ com.example.delivery_solutions_sdk.BuildConfig

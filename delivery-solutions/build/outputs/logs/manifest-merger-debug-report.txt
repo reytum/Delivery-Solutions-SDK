@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:1-15:12
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:5:5-13:19
+	android:usesCleartextTraffic
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:5:18-53
+activity#com.example.delivery_solutions.GeoActivity
+ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:6:9-8:72
+	android:theme
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:8:13-69
+	android:name
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:7:13-40
+meta-data#com.transistorsoft.locationmanager.license
+ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:10:9-12:96
+	android:value
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:12:13-93
+	android:name
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml:11:13-70
+uses-sdk
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+		ADDED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
+		INJECTED from /Users/reytum/Documents/Projects/Android/Delivery-Solutions-SDK/delivery-solutions/src/main/AndroidManifest.xml
